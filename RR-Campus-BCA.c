@@ -197,7 +197,7 @@ int main(){
         }else if(!isalpha(op))
         {
             switch(op){
-                case 0:
+            case 0:
             for(int i=0; i<7050; i++)
             {
                 printf("01");
@@ -210,13 +210,36 @@ int main(){
             break;
 
             case 1:
-            printf("This is semister one");
+            section01:
+            fflush(stdin);
+            system("cls");
+            newLine(5);
+            printf("-----------------------------------------------------------------------\n");
+            printf("\t\tFirst Semister 2080 Batch\n");
+            printf("-----------------------------------------------------------------------\n\n\n");
+            printf("\t1. Section A\t\t 2. Section B\n\n");
+            printf("\t0. Back");
+            newLine(3);
+            printf("-----------------------------------------------------------------------\n");
             printf("Enter : ");
             scanf("%d",&op);
-            break;
+            
+                break;
 
             case 2:
-            printf("This is semister two");
+            section02:
+            fflush(stdin);
+            system("cls");
+            newLine(5);
+            printf("-----------------------------------------------------------------------\n");
+            printf("\t\tSecond Semister 2080 Batch\n");
+            printf("-----------------------------------------------------------------------\n\n\n");
+            printf("\t1. Section A\t\t 2. Section B\n\n");
+            printf("\t0. Back");
+            newLine(3);
+            printf("-----------------------------------------------------------------------\n");
+            printf("Enter : ");
+            scanf("%d",&op);
             break;
 
             default:
